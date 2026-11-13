@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
-
 public class ForLoop {
+    public static void main(String[] args) throws InterruptedException {
+        int count = 0;
+
+        for (int i = 10; i >= 1; i--) {
+            System.out.println("Launch!");
+            Thread.sleep(1000);
+        }
+    }
 }
